@@ -1,0 +1,66 @@
+h1 {
+	background-color: #576675;
+	color: white;
+	font-family: Consolas
+}
+.titre1 {
+	background-color: lightgray;
+	color: gray;
+	font-family: Arial Narrow
+}
+
+		ul {
+		  list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+		  overflow: hidden;
+		  background-color:  #051414;
+		}
+
+		li {
+		  float: left;
+		}
+
+		li a {
+		  display: block;
+		  color: white;
+		  text-align: center;
+		  padding: 7px 16px;	
+		  text-decoration: none;
+		}
+
+		li a:hover {
+		  background-color: #47d1d1;
+		}
+		img{
+			width: 150px
+		}
+		textarea {
+			height: 500px
+			width: 300px;
+			margin-top: 5px;
+		}
+		input{
+			margin-left: 30px;
+			margin-top: 5px;
+		}	
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #778;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}	
+
